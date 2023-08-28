@@ -718,8 +718,8 @@
 			"1"
 			{
 				"name"	"TF2 Build"
-				"tall"	"44"
-				"tall_lodef"	"52"
+				"tall"	"85"
+				"tall_lodef"	"70"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias"	"1"
@@ -810,7 +810,7 @@
 			"1"
 			{
 				"name"	"TF2 Build"
-				"tall"	"18"
+				"tall"	"30"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias"	"1"
@@ -821,7 +821,7 @@
 			"1"
 			{
 				"name"	"TF2"
-				"tall"	"18"
+				"tall"	"25"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
 				"weight"	"500"
@@ -2930,7 +2930,20 @@
 				"antialias"	"1"
 			}
 		}
+		"HealthFontTFB"
+		{
+			"1"
+			{
+				"name"	"TF2 Build"
+				"tall"	"64"
+				"antialias"	"1"
+			}
+		}
 	}
+	
+	// I am doing my best to add fonts, -Ron
+	
+	
 	"Borders"
 	{
 		"NoBorder"
@@ -5424,6 +5437,11 @@
 			{
 				"range"	"0x0000 0x007E"
 			}
+		}
+		"8"
+		{
+			"font" "resource/fonts/tf2build.ttf"
+			"name" "TF2 Build"
 		}
 	}
 }

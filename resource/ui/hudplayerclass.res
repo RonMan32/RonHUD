@@ -103,13 +103,13 @@
 		"fieldName"	"classmodelpanelBG"
 		"xpos"	"-1" [$WIN32]
 		"xpos_minmode"	"-15" [$WIN32]
-		"ypos"	"r60" [$WIN32]
+		"ypos"	"r79" [$WIN32]
 		"ypos_minmode"	"r40" [$WIN32]
 		"xpos"	"41" [$X360]
 		"ypos"	"r82" [$X360]
 		"zpos"	"1"
-		"wide"	"109"
-		"tall"	"50"
+		"wide"	"145"
+		"tall"	"69"
 		"visible"	"1"
 		"enabled"	"1"
 		"scaleImage"	"1"
@@ -162,14 +162,14 @@
 			}
 			"Scout"
 			{
-				"fov"	"25"
+				"fov"	"21"
 				"angles_x"	"-17"
 				"angles_x_minmode"	"-10"
 				"angles_y"	"145"
 				"angles_z"	"0"
 				"origin_x"	"105"
 				"origin_y"	"4"
-				"origin_z"	"-82"
+				"origin_z"	"-73"
 				"origin_z_minmode"	"-52"
 			}
 			"Sniper"
