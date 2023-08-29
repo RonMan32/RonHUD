@@ -718,7 +718,7 @@
 			"1"
 			{
 				"name"	"TF2 Build"
-				"tall"	"85"
+				"tall"	"44"
 				"tall_lodef"	"70"
 				"weight"	"500"
 				"additive"	"0"
@@ -810,7 +810,7 @@
 			"1"
 			{
 				"name"	"TF2 Build"
-				"tall"	"30"
+				"tall"	"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias"	"1"
@@ -821,7 +821,7 @@
 			"1"
 			{
 				"name"	"TF2"
-				"tall"	"25"
+				"tall"	"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
 				"weight"	"500"
@@ -2939,6 +2939,24 @@
 				"antialias"	"1"
 			}
 		}
+		"RonHUDAmmoSize"
+		{
+			"1"
+			{
+				"name"	"TF2 Build"
+				"tall"	"57"
+				"antialias"	"1"
+			}
+		}
+		"RonHUDAmmoResSize"
+		{
+			"1"
+			{
+				"name"	"TF2"
+				"tall"	"25"
+				"antialias"	"1"
+			}	
+		}	
 	}
 	
 	// I am doing my best to add fonts, -Ron
@@ -5437,11 +5455,6 @@
 			{
 				"range"	"0x0000 0x007E"
 			}
-		}
-		"8"
-		{
-			"font" "resource/fonts/tf2build.ttf"
-			"name" "TF2 Build"
 		}
 	}
 }

@@ -44,7 +44,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"HudFontGiantBold"
+		"font"			"RonHUDAmmoSize"
 		"fgcolor"		"TanLight"
 		"xpos"			"3"
 		"xpos_minmode"	"4"
@@ -64,7 +64,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"HudFontGiantBold"
+		"font"			"RonHUDAmmoSize"
 		"fgcolor"		"Black"
 		"xpos"			"-3"
 		"ypos"			"-3"
@@ -83,7 +83,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"HudFontMediumSmall"
+		"font"			"RonHUDAmmoResSize"
 		"font_lodef"	"HudFontMedium"
 		"font_minmode"	"HudFontSmall"
 		"fgcolor"		"TanLight"
@@ -104,7 +104,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"HudFontMediumSmall"
+		"font"			"RonHUDAmmoResSize"
 		"font_lodef"	"HudFontMedium"
 		"font_minmode"	"HudFontSmall"
 		"fgcolor"		"TransparentBlack"
@@ -124,7 +124,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"HudFontGiantBold"
+		"font"			"RonHUDAmmoSize"
 		"fgcolor"		"TanLight"
 		"xpos"			"14"
 		"ypos"			"27"
@@ -142,7 +142,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"HudFontGiantBold"
+		"font"			"RonHUDAmmoSize"
 		"fgcolor"		"Black"
 		"xpos"			"-3"
 		"ypos"			"-3"

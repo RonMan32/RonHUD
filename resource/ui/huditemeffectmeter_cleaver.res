@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"x_offset"		"40"
-		"xpos"			"r174"
+		"xpos"			"r200"
 		"ypos"			"r57"
 		"xpos_minmode"	"r52"
 		"ypos_minmode"	"r68"
