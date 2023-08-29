@@ -33,8 +33,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamLabel"
-		"xpos"			"c10"
-		"ypos"			"53"
+		"xpos"			"c5"
+		"ypos"			"58"
 		"zpos"			"3"
 		"wide"			"200"
 		"tall"			"24"
@@ -49,8 +49,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamLabelShadow"
-		"xpos"			"c12"
-		"ypos"			"54"
+		"xpos"			"c7"
+		"ypos"			"59"
 		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"24"
@@ -66,11 +66,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"MainBG"
-		"xpos"			"c26"
-		"ypos"			"66"
-		"zpos"			"1"
-		"wide"			"168"
-		"tall"			"218"
+		"xpos"			"c25"
+		"ypos"			"70"
+		"zpos"			"0"
+		"wide"			"160"
+		"tall"			"210"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_blu"
@@ -81,43 +81,18 @@
 		"src_corner_height"		"20"
 		"src_corner_width"		"20"
 		
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
-	}	
-	"MainBG2"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"MainBG2"
-		"xpos"			"c24"	
-		"ypos"			"64"
-		"zpos"			"-5"
-		"alpha"			"180"
-		"wide"			"172"
-		"tall"			"222"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_blu"
-		"scaleImage"			"1"	
-		"teambg_1"		"../hud/color_panel_blu"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		"scaleImage"			"1"	
-		
-		"src_corner_height"		"20"
-		"src_corner_width"		"20"
-		
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
-	}	
+		"draw_corner_width"		"3"
+		"draw_corner_height" 	"3"	
+	}
 	"RandomBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"RandomBG"
-		"xpos"			"c193"
-		"ypos"			"100"
+		"xpos"			"c182"
+		"ypos"			"105"
 		"zpos"			"0"
-		"wide"			"43"
-		"tall"			"88"
+		"wide"			"45"
+		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
@@ -126,32 +101,18 @@
 		"src_corner_height"		"20"
 		"src_corner_width"		"20"
 		
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
-	}	
-	"RandomBGBorder"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RandomBGBorder"
-		"xpos"			"c193"
-		"ypos"			"98"
-		"zpos"			"-1"
-		"wide"			"45"
-		"tall"			"92"
-		"visible"		"1"
-		"enabled"		"1"
-
-		"fillcolor" "0 0 0 125"
+		"draw_corner_width"		"4"
+		"draw_corner_height" 	"4"	
 	}
 	"LoadouBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"LoadouBG"
-		"xpos"			"c193"
-		"ypos"			"198"
+		"xpos"			"c182"
+		"ypos"			"195"
 		"zpos"			"0"
-		"wide"			"43"
-		"tall"			"46"
+		"wide"			"45"
+		"tall"			"48"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
@@ -160,29 +121,15 @@
 		"src_corner_height"		"20"
 		"src_corner_width"		"20"
 		
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
-	}	
-	"LoadouBGBorder"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"LoadouBGBorder"
-		"xpos"			"c193"
-		"ypos"			"196"
-		"zpos"			"-1"
-		"wide"			"45"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-
-		"fillcolor" "0 0 0 125"
+		"draw_corner_width"		"4"
+		"draw_corner_height" 	"4"	
 	}
 	"random"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"random"
-		"xpos"				"c193"
-		"ypos"				"101"
+		"xpos"				"c183"
+		"ypos"				"105"
 		"zpos"				"6"
 		"wide"				"44"
 		"tall"				"88"
@@ -215,11 +162,11 @@
 		"keyboardinputenabled"	"1"
 		
 		"sound_armed"				"UI/buttonclickrelease.wav"
-		"sound_armed_minmode"		"misc/null.wav"
+
 		//"sound_depressed"			"UI/buttonclickrelease.wav"
-		//"sound_depressed_minmode"	"misc/null.wav"
-		"sound_released"			"UI/duel_challenge_accepted.wav"
-		"sound_released_minmode"	"misc/null.wav"
+
+		"sound_released"			"UI/duel_event.wav"
+
 		
 		"SubImage"
 		{
@@ -241,8 +188,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"Loadoutdisabled"
-		"xpos"			"c193"
-		"ypos"			"199"
+		"xpos"			"c183"
+		"ypos"			"195"
 		"zpos"				"-1"
 		"wide"				"44"
 		"tall"				"47"
@@ -269,8 +216,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LoadoutDisabledDetail"
-		"xpos"			"c203"
-		"ypos"			"210"
+		"xpos"			"c193"
+		"ypos"			"206"
 		"zpos"			"1"
 		"wide"			"25"
 		"tall"			"25"
@@ -283,8 +230,8 @@
 	{
 		"ControlName"			"CExImageButton"
 		"fieldName"			"EditLoadoutButton"
-		"xpos"			"c193"
-		"ypos"			"199"
+		"xpos"			"c183"
+		"ypos"			"195"
 		"zpos"				"10"
 		"wide"				"44"
 		"tall"				"47"
@@ -312,9 +259,9 @@
 		"keyboardinputenabled"	"1"
 		
 		"sound_armed"				"UI/buttonclickrelease.wav"
-		"sound_armed_minmode"		"misc/null.wav"
+
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	"misc/null.wav"
+
 		
 		"paintbackground"	"0"
 		
@@ -341,8 +288,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"LoadoutLabelDisabled"
-		"xpos"			"c195"
-		"ypos"			"234"
+		"xpos"			"c185"
+		"ypos"			"230"
 		"zpos"			"3"
 		"wide"			"10"
 		"tall"			"10"
@@ -417,7 +364,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"frame_scout"
 		"xpos"			"c30"
-		"ypos"			"85"
+		"ypos"			"90"
 		"zpos"			"2"
 		"wide"			"50"
 		"tall"			"50"
@@ -437,7 +384,7 @@
 		"ControlName"		"CExImageButton"
 		"fieldName"			"scout"
 		"xpos"				"c33"
-		"ypos"				"88"
+		"ypos"				"93"
 		"zpos"				"6"
 		"wide"				"45"
 		"tall"				"45"
@@ -467,9 +414,9 @@
 		"depressedbgcolor_override"		"0 0 0 150"
 		
 		"sound_armed"				"ui/item_info_mouseover.wav"
-		"sound_armed_minmode"		"misc/null.wav"
+
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	"misc/null.wav"
+
 		
 		"paintbackground"	"0"
 		
@@ -500,10 +447,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numScout"
-		"xpos"			"c25"
-		"ypos"			"75"
+		"xpos"			"c30"
+		"ypos"			"80"
 		"zpos"			"5"
-		"wide"			"60"
+		"wide"			"50"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -520,8 +467,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"frame_soldier"
-		"xpos"			"c85"
-		"ypos"			"85"
+		"xpos"			"c80"
+		"ypos"			"90"
 		"zpos"			"2"
 		"wide"			"50"
 		"tall"			"50"
@@ -540,8 +487,8 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"soldier"
-		"xpos"				"c88"
-		"ypos"				"88"
+		"xpos"				"c83"
+		"ypos"				"93"
 		"zpos"				"6"
 		"wide"				"45"
 		"tall"				"45"
@@ -570,9 +517,9 @@
 		"depressedbgcolor_override"		"0 0 0 150"
 		
 		"sound_armed"				"ui/item_info_mouseover.wav"
-		"sound_armed_minmode"		"misc/null.wav"
+
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	"misc/null.wav"
+
 		
 		"paintbackground"	"0"
 		
@@ -604,9 +551,9 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
 		"xpos"			"c80"
-		"ypos"			"75"
+		"ypos"			"80"
 		"zpos"			"5"
-		"wide"			"60"
+		"wide"			"50"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -623,8 +570,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"frame_pyro"
-		"xpos"			"c140"
-		"ypos"			"85"
+		"xpos"			"c130"
+		"ypos"			"90"
 		"zpos"			"2"
 		"wide"			"50"
 		"tall"			"50"
@@ -643,8 +590,8 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"pyro"
-		"xpos"				"c143"
-		"ypos"				"88"
+		"xpos"				"c133"
+		"ypos"				"93"
 		"zpos"				"6"
 		"wide"				"45"
 		"tall"				"45"
@@ -673,9 +620,9 @@
 		"depressedbgcolor_override"		"0 0 0 150"
 		
 		"sound_armed"				"ui/item_info_mouseover.wav"
-		"sound_armed_minmode"		"misc/null.wav"
+
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	"misc/null.wav"
+
 		
 		"paintbackground"	"0"
 		
@@ -706,10 +653,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numPyro"
-		"xpos"			"c135"
-		"ypos"			"75"
+		"xpos"			"c130"
+		"ypos"			"80"
 		"zpos"			"5"
-		"wide"			"60"
+		"wide"			"50"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -776,9 +723,9 @@
 		"depressedbgcolor_override"		"0 0 0 150"
 		
 		"sound_armed"				"ui/item_info_mouseover.wav"
-		"sound_armed_minmode"		"misc/null.wav"
+
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	"misc/null.wav"
+
 		
 		"paintbackground"	"0"
 		
@@ -809,10 +756,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
-		"xpos"			"c25"
+		"xpos"			"c30"
 		"ypos"			"140"
 		"zpos"			"5"
-		"wide"			"60"
+		"wide"			"50"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -829,7 +776,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"frame_heavy"
-		"xpos"			"c85"
+		"xpos"			"c80"
 		"ypos"			"150"
 		"zpos"			"2"
 		"wide"			"50"
@@ -849,7 +796,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"heavyweapons"
-		"xpos"				"c88"
+		"xpos"				"c83"
 		"ypos"				"153"
 		"zpos"				"6"
 		"wide"				"45"
@@ -879,9 +826,8 @@
 		"depressedbgcolor_override"		"0 0 0 150"
 		
 		"sound_armed"				"ui/item_info_mouseover.wav"
-		"sound_armed_minmode"		"misc/null.wav"
+
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	"misc/null.wav"
 		
 		"paintbackground"	"0"
 		
@@ -915,7 +861,7 @@
 		"xpos"			"c80"
 		"ypos"			"140"
 		"zpos"			"5"
-		"wide"			"60"
+		"wide"			"50"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -932,7 +878,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"frame_engie"
-		"xpos"			"c140"
+		"xpos"			"c130"
 		"ypos"			"150"
 		"zpos"			"2"
 		"wide"			"50"
@@ -952,7 +898,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"engineer"
-		"xpos"				"c143"
+		"xpos"				"c133"
 		"ypos"				"153"
 		"zpos"				"6"
 		"wide"				"45"
@@ -982,9 +928,7 @@
 		"depressedbgcolor_override"		"0 0 0 150"
 		
 		"sound_armed"				"ui/item_info_mouseover.wav"
-		"sound_armed_minmode"		"misc/null.wav"
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	"misc/null.wav"
 		
 		"paintbackground"	"0"
 		
@@ -1015,10 +959,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
-		"xpos"			"c135"
+		"xpos"			"c130"
 		"ypos"			"140"
 		"zpos"			"5"
-		"wide"			"60"
+		"wide"			"50"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1036,7 +980,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"frame_medic"
 		"xpos"			"c30"
-		"ypos"			"215"
+		"ypos"			"210"
 		"zpos"			"2"
 		"wide"			"50"
 		"tall"			"50"
@@ -1056,7 +1000,7 @@
 		"ControlName"		"CExImageButton"
 		"fieldName"			"medic"
 		"xpos"				"c33"
-		"ypos"				"218"
+		"ypos"				"213"
 		"zpos"				"6"
 		"wide"				"45"
 		"tall"				"45"
@@ -1085,9 +1029,7 @@
 		"depressedbgcolor_override"		"0 0 0 150"
 		
 		"sound_armed"				"ui/item_info_mouseover.wav"
-		"sound_armed_minmode"		"misc/null.wav"
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	"misc/null.wav"
 		
 		"paintbackground"	"0"
 		
@@ -1118,10 +1060,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
-		"xpos"			"c25"
-		"ypos"			"205"
+		"xpos"			"c30"
+		"ypos"			"200"
 		"zpos"			"5"
-		"wide"			"60"
+		"wide"			"50"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1138,8 +1080,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Bframe_sniper"
-		"xpos"			"c85"
-		"ypos"			"215"
+		"xpos"			"c80"
+		"ypos"			"210"
 		"zpos"			"2"
 		"wide"			"50"
 		"tall"			"50"
@@ -1158,8 +1100,8 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"sniper"
-		"xpos"				"c88"
-		"ypos"				"218"
+		"xpos"				"c83"
+		"ypos"				"213"
 		"zpos"				"6"
 		"wide"				"45"
 		"tall"				"45"
@@ -1188,9 +1130,7 @@
 		"depressedbgcolor_override"		"0 0 0 150"
 		
 		"sound_armed"				"ui/item_info_mouseover.wav"
-		"sound_armed_minmode"		"misc/null.wav"
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	"misc/null.wav"
 		
 		"paintbackground"	"0"
 		
@@ -1222,9 +1162,9 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
 		"xpos"			"c80"
-		"ypos"			"205"
+		"ypos"			"200"
 		"zpos"			"5"
-		"wide"			"60"
+		"wide"			"50"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1241,8 +1181,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"frame_spy"
-		"xpos"			"c140"
-		"ypos"			"215"
+		"xpos"			"c130"
+		"ypos"			"210"
 		"zpos"			"2"
 		"wide"			"50"
 		"tall"			"50"
@@ -1261,8 +1201,8 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"spy"
-		"xpos"				"c143"
-		"ypos"				"218"
+		"xpos"				"c133"
+		"ypos"				"213"
 		"zpos"				"6"
 		"wide"				"45"
 		"tall"				"45"
@@ -1291,9 +1231,7 @@
 		"depressedbgcolor_override"		"0 0 0 150"
 		
 		"sound_armed"				"ui/item_info_mouseover.wav"
-		"sound_armed_minmode"		"misc/null.wav"
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	"misc/null.wav"
 		
 		"paintbackground"	"0"
 		
@@ -1324,10 +1262,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSpy"
-		"xpos"			"c135"
-		"ypos"			"205"
+		"xpos"			"c130"
+		"ypos"			"200"
 		"zpos"			"5"
-		"wide"			"60"
+		"wide"			"50"
 		"tall"			"12"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1364,27 +1302,27 @@
 		"armedbgcolor_override"			"90 90 90 255"		
 		
 		"sound_armed"				"UI/buttonclickrelease.wav"
-		"sound_armed_minmode"		"misc/null.wav"
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	"misc/null.wav"
 	}
-	"CancelButton"
+	"CancelButton" 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"c45"
-		"ypos"			"272"
+		"xpos"			"c-92"
+		"ypos"			"r80"
 		"zpos"			"6"
-		"wide"			"130"
-		"tall"			"20"
+		"wide"			"200"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_Cancel"
 		"textAlignment"	"center"
-		"Command"		"vguicancel"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"cancelmenu"
 		"font"			"HudFontSmallBold"
 		
 		"defaultFgColor_override" 		"235 235 235 255"
@@ -1393,20 +1331,15 @@
 		"armedFgColor_override" 		"255 255 255 255"
 		"depressedbgcolor_override"		"50 50 50 255"
 		"depressedfgColor_override" 	"255 255 255 255"	
-		
-		"sound_armed"				"UI/buttonclickrelease.wav"
-		"sound_armed_minmode"		""
-		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	""
 	}
 	"ResetButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ResetButton"
-		"xpos"			"c203"
-		"ypos"			"252"
+		"xpos"			"c193"
+		"ypos"			"250"
 		"zpos"			"6"
-		"wide"			"75"
+		"wide"			"80"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"2"
@@ -1426,11 +1359,8 @@
 		"depressedfgColor_override" 	"255 255 255 255"	
 		
 		"sound_armed"				"UI/buttonclickrelease.wav"
-		"sound_armed_minmode"		"misc/null.wav"
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	"misc/null.wav"
 		"sound_released"			"UI/duel_score_behind.wav"
-		"sound_released_minmode"	"misc/null.wav"
 	}
 
 	"ClassMenuSelect"
@@ -1476,7 +1406,7 @@
 		"tall"			"2000"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 180"
@@ -1487,7 +1417,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerImage"
-		"xpos"			"c-23"
+		"xpos"			"c34"
 		"ypos"			"295"
 		"zpos"			"9"
 		"wide"			"45"
@@ -1495,18 +1425,19 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""	
+
 		"scaleImage"	"1"	
 	}	
 	"localPlayerBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerBG"
-		"xpos"			"c-28"
+		"xpos"			"c29"
 		"ypos"			"310"
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"80"
-		"alpha"			"255"
+		"alpha"			"230"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -1514,18 +1445,17 @@
 		"image"			"../hud/color_panel_brown"		//"../hud/color_panel_clear"
 		"scaleImage"			"1"	
 		
-		"fillcolor"	"255 255 255 255"
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
+		"draw_corner_width"		"4"
+		"draw_corner_height" 	"4"	
 	}
 	"countImage0"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage0"
-		"xpos"			"c30"
+		"xpos"			"c85"
 		"ypos"			"315"
 		"zpos"			"9"
 		"wide"			"30"
@@ -1539,7 +1469,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage1"
-		"xpos"			"c-60"
+		"xpos"			"c0"
 		"ypos"			"315"
 		"zpos"			"9"
 		"wide"			"30"
@@ -1553,7 +1483,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage2"
-		"xpos"			"c60"
+		"xpos"			"c115"
 		"ypos"			"315"
 		"zpos"			"9"
 		"wide"			"30"
@@ -1567,7 +1497,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage3"
-		"xpos"			"c-90"
+		"xpos"			"c-30"
 		"ypos"			"315"
 		"zpos"			"9"
 		"wide"			"30"
@@ -1581,7 +1511,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage4"
-		"xpos"			"c90"
+		"xpos"			"c145"
 		"ypos"			"315"
 		"zpos"			"9"
 		"wide"			"30"
@@ -1595,7 +1525,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage5"
-		"xpos"			"c-120"
+		"xpos"			"c-60"
 		"ypos"			"315"
 		"zpos"			"9"
 		"wide"			"30"
@@ -1609,7 +1539,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage6"
-		"xpos"			"c120"
+		"xpos"			"c175"
 		"ypos"			"315"
 		"zpos"			"9"
 		"wide"			"30"
@@ -1623,7 +1553,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage7"
-		"xpos"			"c-150"
+		"xpos"			"c-90"
 		"ypos"			"315"
 		"zpos"			"9"
 		"wide"			"30"
@@ -1637,7 +1567,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage8"
-		"xpos"			"c150"
+		"xpos"			"c205"
 		"ypos"			"315"
 		"zpos"			"9"
 		"wide"			"30"
@@ -1651,7 +1581,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage9"
-		"xpos"			"c-180"
+		"xpos"			"c-120"
 		"ypos"			"315"
 		"zpos"			"9"
 		"wide"			"30"
@@ -1665,7 +1595,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage10"
-		"xpos"			"c180"
+		"xpos"			"c235"
 		"ypos"			"315"
 		"zpos"			"9"
 		"wide"			"30"
@@ -1700,7 +1630,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageScout"
 		"xpos"			"c30"
-		"ypos"			"85"
+		"ypos"			"90"
 		"zpos"			"10"
 		"wide"			"10"
 		"tall"			"10"
@@ -1714,8 +1644,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageSolider"
-		"xpos"			"c85"
-		"ypos"			"85"
+		"xpos"			"c80"
+		"ypos"			"90"
 		"zpos"			"10"
 		"wide"			"10"
 		"tall"			"10"
@@ -1729,8 +1659,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImagePyro" 
-		"xpos"			"c140"
-		"ypos"			"85"
+		"xpos"			"c130"
+		"ypos"			"90"
 		"zpos"			"10"
 		"wide"			"10"
 		"tall"			"10"
@@ -1759,7 +1689,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageHeavy" 
-		"xpos"			"c85"
+		"xpos"			"c80"
 		"ypos"			"150"
 		"zpos"			"10"
 		"wide"			"10"
@@ -1774,7 +1704,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageEngineer"
-		"xpos"			"c140"
+		"xpos"			"c130"
 		"ypos"			"150"
 		"zpos"			"10"
 		"wide"			"10"
@@ -1790,7 +1720,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageMedic"
 		"xpos"			"c30"
-		"ypos"			"215"
+		"ypos"			"210"
 		"zpos"			"10"
 		"wide"			"10"
 		"tall"			"10"
@@ -1804,8 +1734,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageSniper"
-		"xpos"			"c85"
-		"ypos"			"215"
+		"xpos"			"c80"
+		"ypos"			"210"
 		"zpos"			"10"
 		"wide"			"10"
 		"tall"			"10"
@@ -1819,8 +1749,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageSpy"
-		"xpos"			"c140"
-		"ypos"			"215"
+		"xpos"			"c130"
+		"ypos"			"210"
 		"zpos"			"10"
 		"wide"			"10"
 		"tall"			"10"
@@ -1919,6 +1849,7 @@
 			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "200 80 60 255"
+
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -1958,8 +1889,8 @@
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
+		"draw_corner_width"		"4"
+		"draw_corner_height" 	"4"	
 	}	
 
 	"TFPlayerModel"
@@ -2002,18 +1933,19 @@
 			"spotlight" "1"
 		
 			"modelname"		""
-			"vcd"		"class_select.vcd"							
+			"vcd"		"class_select.vcd"		
+									
 		}
 	}
 	"ClassTipsPanel"
 	{
 		"ControlName"	"CTFClassTipsPanel"
 		"fieldName"		"ClassTipsPanel"
-		"xpos"			"c46"
-		"ypos"			"c-79"
+		"xpos"			"42"
+		"ypos"			"300"
 		"zpos"			"7"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"235"
+		"tall"			"165"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
