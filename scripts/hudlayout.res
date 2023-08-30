@@ -476,18 +476,18 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"	"r640" [$WIN32]
-		"ypos"	"37" [$WIN32]
+		"ypos"	"12" [$WIN32]
 		"xpos"	"r672" [$X360]
 		"ypos"	"35" [$X360]
 		"wide"	"628"
 		"tall"	"468"
-		"MaxDeathNotices"	"5"
-		"IconScale"	"0.35"
+		"MaxDeathNotices"	"7"
+		"IconScale"	"0.37"
 		"LineHeight"	"16"
 		"LineSpacing"	"2"
 		"CornerRadius"	"3"
 		"RightJustify"	"1"
-		"TextFont"	"HudFontSmallest"
+		"TextFont"	"HudFontSmallBold"
 		"TeamBlue"	"HUDBlueTeamSolid"
 		"TeamRed"	"HUDRedTeamSolid"
 		"IconColor"	"HudWhite"
