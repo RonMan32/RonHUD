@@ -97,14 +97,14 @@
 		"fieldName"	"HudMedicCharge"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"	"r138" [$WIN32]
+		"xpos"	"r160" [$WIN32]
 		"xpos_minmode"	"r100" [$WIN32]
 		"ypos"	"r69" [$WIN32]
 		"ypos_minmode"	"r34" [$WIN32]
 		"xpos"	"r174" [$X360]
 		"ypos"	"r90" [$X360]
-		"wide"	"200"
-		"tall"	"100"
+		"wide"	"270"
+		"tall"	"135"
 	}
 	"HudDemomanCharge"
 	{
@@ -214,14 +214,14 @@
 	"CHudAccountPanel"
 	{
 		"fieldName"	"CHudAccountPanel"
-		"xpos"	"r162" [$WIN32]
+		"xpos"	"r187" [$WIN32]
 		"ypos"	"r152" [$WIN32]
 		"xpos_minmode"	"r130" [$WIN32]
 		"ypos_minmode"	"r134" [$WIN32]
-		"xpos"	"r194" [$X360]
+		"xpos"	"r182" [$X360]
 		"ypos"	"r174" [$X360]
-		"wide"	"116"
-		"tall"	"180"
+		"wide"	"150"
+		"tall"	"200"
 		"visible"	"1"
 		"enabled"	"1"
 		"PaintBackgroundType"	"2"
@@ -338,8 +338,8 @@
 		"ypos"	"0"
 		"ypos_hidef"	"16"
 		"ypos_lodef"	"25"
-		"wide"	"640"
-		"tall"	"480"
+		"wide"	"730"
+		"tall"	"548"
 		"PaintBackgroundType"	"2"
 	}
 	"HudMannVsMachineStatus"

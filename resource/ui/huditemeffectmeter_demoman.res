@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"ypos"			"r92"	[$WIN32]
+		"xpos"			"r194"	[$WIN32]
+		"ypos"			"r90"	[$WIN32]
 		"xpos_minmode"	"r185"	[$WIN32]
 		"ypos_minmode"	"r40"	[$WIN32]
 		"xpos"			"r194"	[$X360]
@@ -56,7 +56,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"ItemFontNameSmall"
 	}
 
 	"ItemEffectMeter"
