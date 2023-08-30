@@ -476,7 +476,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"	"r640" [$WIN32]
-		"ypos"	"12" [$WIN32]
+		"ypos"	"22" [$WIN32]
 		"xpos"	"r672" [$X360]
 		"ypos"	"35" [$X360]
 		"wide"	"628"
@@ -911,7 +911,7 @@
 		"enabled"	"1"
 		"xpos"	"10" [$WIN32]
 		"xpos"	"42" [$X360]
-		"ypos"	"275"
+		"ypos"	"37"
 		"wide"	"320"
 		"tall"	"120"
 		"PaintBackgroundType"	"2"
