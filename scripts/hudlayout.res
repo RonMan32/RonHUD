@@ -46,9 +46,9 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"	"r130" [$WIN32]
-		"xpos_minmode"	"r85" [$WIN32]
+		"xpos_minmode"	"r130" [$WIN32]
 		"ypos"	"r90" [$WIN32]
-		"ypos_minmode"	"r36" [$WIN32]
+		"ypos_minmode"	"r90" [$WIN32]
 		"wide"	"550"
 		"tall"	"550"
 	}
@@ -82,9 +82,9 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"	"r162" [$WIN32]
-		"xpos_minmode"	"r52" [$WIN32]
+		"xpos_minmode"	"r162" [$WIN32]
 		"ypos"	"r52" [$WIN32]
-		"ypos_minmode"	"r50" [$WIN32]
+		"ypos_minmode"	"r52" [$WIN32]
 		"xpos"	"r194" [$X360]
 		"ypos"	"r74" [$X360]
 		"wide"	"100"
@@ -98,9 +98,9 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"	"r160" [$WIN32]
-		"xpos_minmode"	"r100" [$WIN32]
+		"xpos_minmode"	"r160" [$WIN32]
 		"ypos"	"r69" [$WIN32]
-		"ypos_minmode"	"r34" [$WIN32]
+		"ypos_minmode"	"r69" [$WIN32]
 		"xpos"	"r174" [$X360]
 		"ypos"	"r90" [$X360]
 		"wide"	"270"
@@ -112,14 +112,14 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"	"r453" [$WIN32]
-		"xpos_minmode"	"r52" [$WIN32]
+		"xpos_minmode"	"r453" [$WIN32]
 		"ypos"	"r223" [$WIN32]
-		"ypos_minmode"	"r40" [$WIN32]
+		"ypos_minmode"	"r223" [$WIN32]
 		"xpos"	"r112" [$X360]
 		"ypos"	"r45" [$X360]
 		"zpos"	"1"
 		"wide"	"60"
-		"wide_minmode"	"50"
+		"wide_minmode"	"60"
 		"tall"	"8"
 		"MeterFG"	"White"
 		"MeterBG"	"Gray"
@@ -130,14 +130,14 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"	"r80" [$WIN32]
-		"xpos_minmode"	"r52" [$WIN32]
+		"xpos_minmode"	"r80" [$WIN32]
 		"ypos"	"r21" [$WIN32]
-		"ypos_minmode"	"r40" [$WIN32]
+		"ypos_minmode"	"r21" [$WIN32]
 		"xpos"	"r112" [$X360]
 		"ypos"	"r45" [$X360]
 		"zpos"	"1"
 		"wide"	"0"
-		"wide_minmode"	"50"
+		"wide_minmode"	"0"
 		"tall"	"0"
 		"MeterFG"	"White"
 		"MeterBG"	"Gray"
@@ -148,14 +148,14 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"	"r80" [$WIN32]
-		"xpos_minmode"	"r52" [$WIN32]
+		"xpos_minmode"	"r80" [$WIN32]
 		"ypos"	"r21" [$WIN32]
-		"ypos_minmode"	"r40" [$WIN32]
+		"ypos_minmode"	"r21" [$WIN32]
 		"xpos"	"r112" [$X360]
 		"ypos"	"r45" [$X360]
 		"zpos"	"1"
 		"wide"	"60"
-		"wide_minmode"	"50"
+		"wide_minmode"	"60"
 		"tall"	"8"
 		"MeterFG"	"White"
 		"MeterBG"	"Gray"
@@ -216,8 +216,8 @@
 		"fieldName"	"CHudAccountPanel"
 		"xpos"	"r187" [$WIN32]
 		"ypos"	"r152" [$WIN32]
-		"xpos_minmode"	"r130" [$WIN32]
-		"ypos_minmode"	"r134" [$WIN32]
+		"xpos_minmode"	"r187" [$WIN32]
+		"ypos_minmode"	"r152" [$WIN32]
 		"xpos"	"r182" [$X360]
 		"ypos"	"r174" [$X360]
 		"wide"	"150"
@@ -230,9 +230,9 @@
 	{
 		"fieldName"	"CHealthAccountPanel"
 		"xpos"	"76"
-		"xpos_minmode"	"61"
+		"xpos_minmode"	"76"
 		"ypos"	"r152"
-		"ypos_minmode"	"r134"
+		"ypos_minmode"	"r152"
 		"wide"	"116"
 		"tall"	"180"
 		"visible"	"1"
@@ -273,7 +273,7 @@
 		"ypos"	"285"
 		"wide"	"252"
 		"tall"	"35"
-		"tall_minmode"	"28"
+		"tall_minmode"	"35"
 		"priority"	"40"
 		"priority_lodef"	"5"
 		"if_vr"
@@ -291,7 +291,7 @@
 		"ypos"	"350"
 		"wide"	"252"
 		"tall"	"35"
-		"tall_minmode"	"28"
+		"tall_minmode"	"35"
 		"priority"	"40"
 		"priority_lodef"	"35"
 		"x_offset"	"20"
@@ -306,7 +306,7 @@
 		"ypos"	"350"
 		"wide"	"252"
 		"tall"	"35"
-		"tall_minmode"	"28"
+		"tall_minmode"	"35"
 		"priority"	"35"
 		"if_vr"
 		{
@@ -362,8 +362,8 @@
 		"ypos"	"r100"
 		"wide"	"235"
 		"tall"	"125"
-		"xpos_minmode"	"125"
-		"ypos_minmode"	"r88"
+		"xpos_minmode"	"0"
+		"ypos_minmode"	"r100"
 		"visible"	"0"
 		"enabled"	"1"
 		"PaintBackgroundType"	"2"
@@ -969,9 +969,9 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"	"r188" [$WIN32]
-		"xpos_minmode"	"r110" [$WIN32]
+		"xpos_minmode"	"r188" [$WIN32]
 		"ypos"	"r52" [$WIN32]
-		"ypos_minmode"	"r40" [$WIN32]
+		"ypos_minmode"	"r52" [$WIN32]
 		"xpos"	"r194" [$X360]
 		"ypos"	"r74" [$X360]
 		"wide"	"125"
